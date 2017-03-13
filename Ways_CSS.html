@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> 3 Ways of CSS </title>
+
+<link rel="stylesheet" href="details-external.css"/>
+
+	<style>
+
+		.details-internal {
+			border: solid black;
+			margin: auto;
+		}
+		
+		th {
+			font-size: 20px;
+		}
+
+	</style>
+
+</head>
+
+<body>
+
+	<style>
+
+		.details-inline {
+			border: solid black;
+			margin: auto;
+		}
+		
+		h3 {
+			padding-left:655px;
+			font-size: 30px;
+		}
+		
+		th {
+			font-size: 20px;
+		}
+
+	</style>
+
+		<table border="3" class="details-inline">
+
+				<h3> 2017 LEARNING </h3>
+				
+				<tr> 
+					<th colspan="3"> Current Details </th>
+				</tr>
+			
+				<tr rowspan="3">
+					<td> Acadgild </td>
+					<td> Bengaluru </td>
+					<td> 12345-67890 </td>
+				</tr>
+				
+				<tr rowspan="3">
+					<td> Mentor </td>
+					<td> Harshavardhan </td>
+					<td> 54321-67890 </td>
+				</tr>
+				
+				<tr rowspan="3">
+					<td> Learner </td>
+					<td> Raghavendra </td>
+					<td> 54321-09876 </td>
+				</tr>
+			
+		</table>
+
+		<br/>
+		
+		<table border="2" class="details-internal">
+
+				<tr> 
+					<th colspan="2"> Learning Courses </th>
+				</tr>
+
+				<tr rowspan="2">
+					<td> Course 1 </td>
+					<td> Front-end Fundamentals </td>
+				</tr>
+				
+				<tr rowspan="2">
+					<td> Course 2 </td>
+					<td> Front-end Advanced </td>
+				</tr>
+			
+		</table>
+		
+		<br/>
+		
+		<table border="2" class="details-external">
+
+				<tr> 
+					<th colspan="2"> Course Fee Details </th>
+				</tr>
+				
+				<tr rowspan="2">
+					<th> Course Details </th>
+					<th> Course Cost </th>
+				</tr>
+
+				<tr rowspan="2">
+					<td> Front-end Fundamentals </td>
+					<td> Rs.5000/- </td>
+				</tr>
+				
+				<tr rowspan="2">
+					<td> Front-end Advanced </td>
+					<td> Rs.8000/- </td>
+				</tr>
+				
+				<tr rowspan="2">
+					<td> Big Data </td>
+					<td> Rs.15000/- </td>
+				</tr>
+				
+				<tr rowspan="2">
+					<td> Cloud Computing </td>
+					<td> Rs.18000/- </td>
+				</tr>
+				
+				<tr rowspan="2">
+					<td> Azure and Node.js </td>
+					<td> Rs.25000/- </td>
+				</tr>
+			
+		</table>
+
+</body>
+</html>
